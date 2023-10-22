@@ -55,7 +55,7 @@ Therefore, I was unable to successfully achieve the 75 per cent accuracy rate.
 
 ## Summary
 
-In conclusion, I was unsuccessful at achieving the goal of creating a model with 75 per cent accuracy. The be
+In conclusion, I was unsuccessful at achieving the goal of creating a model with 75 per cent accuracy. The best model created was the final one, in which I gave the model more data, therefore, I would recommend attempting to also incluse the NAME column into the input data. Even know that it seems  counterintuitive that this may help, since the entries in NAME column are not unique, this may help with classification. Also, the optimal model could possibly be found using keras_tuner which would search through hundreds of models to find the optimal one. 
 
 
 
