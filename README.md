@@ -6,7 +6,7 @@ The purpose of this repository is to develop a tool to help Alphabet Soup select
 
 ## Contents of Repository 
 
-This repository contains two code files located in the folder "code" mentioned above along with a folder named models that contains the four models created saved in the h5 format. Finally, there is a report, "report.md" that gives an in depth explanation of the process of trying to optimise the model to achieve a 75 per cent predication accuracy rate. 
+This repository contains two code files located in the folder "code" mentioned above along with a folder named models that contains the four models created saved in the h5 format. Finally, there is a report, "report.md" that gives an in depth explanation of the process of trying to optimise the model to achieve a 75 per cent predication accuracy rate and folder "images" that contains images used in the report. 
 
 ## Instructions
 
