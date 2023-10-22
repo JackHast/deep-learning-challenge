@@ -35,6 +35,28 @@ However, this again fell short of the goal of 75 per cent accuracy, <br
 ![second_model_performance](https://github.com/JackHast/deep-learning-challenge/assets/131254350/d2bc69f9-951e-41d9-b08f-cf464fe70cdc)
 
 
+For the second attempt at optimising the model, I added the same number of neurons to the two hidden layers as I did to the input layer <br>
+
+![third_model_structure](https://github.com/JackHast/deep-learning-challenge/assets/131254350/a7af40f1-4579-4d90-bb2e-7a659cdd02e9)
+
+Which gave, 
+
+![third_model_performance](https://github.com/JackHast/deep-learning-challenge/assets/131254350/154cebf8-339b-45a2-a0f1-8ec4fb2ca67e)
+
+For the final attempt at optimising the model, I didn't bin the rare values for the APPLICATION_TYPES and CLASSIFICATION columns, <br>
+
+![fourth_model_structure](https://github.com/JackHast/deep-learning-challenge/assets/131254350/2032efcd-907a-493e-9c3d-a2a4e39d2127)
+
+Which gave, 
+
+![fourth_model_performance](https://github.com/JackHast/deep-learning-challenge/assets/131254350/08f6fb90-2b80-4d37-87e8-1002c85b8779)
+
+Therefore, I was unable to successfully achieve the 75 per cent accuracy rate. 
+
+## Summary
+
+In conclusion, I was unsuccessful at achieving the goal of creating a model with 75 per cent accuracy. The be
+
 
 
 
