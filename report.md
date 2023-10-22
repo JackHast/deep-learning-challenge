@@ -2,8 +2,7 @@
 
 ## Overview
 
-The purpose of this repository is to create a model that will help choose potential candidates for 
-
+The purpose of the analysis done in this repository is to develop a tool to help Alphabet Soup select applicants for funding that have the best chance succeeding in their ventures. The notebook "first_attempt.ipynb" is an initial attempt to create a model that has a 75 per cent prediction accuracy. Firstly, some preprocessing is done on the data set (https://static.bc-edx.com/data/dla-1-2/m21/lms/starter/charity_data.csv) from which a neural network model was created with the purpose of classifying whether an application would be successful or not based on the information provided for each applicant. In the file "AlphabetSoupCharity_Optimisation.ipynb" the are three attempts at creating a neural network that achieves 75 per cent accuracy, however, I was not able to achieve this.
 
 ## Results
 
@@ -16,12 +15,28 @@ the identification and the name of the applicant, however these columns were not
 
 ### Compiling, Training and Evaluating the Model
 
-Initally (code located in first_attempt.ipynb), the number of hidden layers chosen was 2 and the number of neurons were 43 (number of features), 21, 21 and 1 and the activation function was chosen <br>
+Initally (code located in first_attempt.ipynb), the number of hidden layers chosen was 2 and the number of neurons were 43 (number of features), 21, 21 and 1 and the activation function 
 was chosen to be the sigmoid function.
 
 ![first_model_structure](https://github.com/JackHast/deep-learning-challenge/assets/131254350/47c86e1d-4116-4f67-8474-068c7c5bc7ec)
 
 The performance of this model fell below 75 per cent accuracy, <br
+
+![first_model_performance](https://github.com/JackHast/deep-learning-challenge/assets/131254350/f91bbff2-9988-486c-80f9-4bacb366f1d2)
+
+<br>
+
+For the first attempt at optimising the model, another layer was added to the model, <br>
+
+![second_model_structure](https://github.com/JackHast/deep-learning-challenge/assets/131254350/c9da667e-b753-4c88-bc73-abb05761016a)
+
+However, this again fell short of the goal of 75 per cent accuracy, <br
+
+![second_model_performance](https://github.com/JackHast/deep-learning-challenge/assets/131254350/d2bc69f9-951e-41d9-b08f-cf464fe70cdc)
+
+
+
+
 
                                                             
 
